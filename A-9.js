@@ -13,7 +13,7 @@
 // console.log(value);
 
 
-// Problem-2
+// *********Problem-2******
 // function checkName(str) {
 //     const lastChar = str[str.length - 1];
 //     const badChar = ['a', 'y', 'i', 'e', 'o', 'u', 'w', 'A', 'Y', 'I', 'E', 'O', 'U', 'W'];
@@ -25,7 +25,8 @@
 // }
 // checkName("SalmanI"); 
 
-//Problem-3
+
+//*************Problem-3**********
 //const array = {num: [ 1 , 2 , 3 ]};
 // function deleteInvalids(arr) {
 //     if( Array.isArray(arr)){
@@ -38,3 +39,17 @@
 // const numbersOnly = deleteInvalids(array);
 
 // console.log(numbersOnly);
+
+
+
+// *********Problem-04*************
+// const userInfo = {name: "kolimoddi", birthYear: 1999, siteName: "google"};
+
+// function password (object){
+//     const password =  object.siteName + '#' + object.name + '@' +  object.birthYear;
+//     return password;
+// }
+
+// console.log(password(userInfo))
+
+
