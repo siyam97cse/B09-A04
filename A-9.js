@@ -52,4 +52,16 @@
 
 // console.log(password(userInfo))
 
+//**************Problem-5****************
+// function monthlySavings(arr, livingCost){
+//     let sum = 0;
+//     for(let i = 0; i<= arr.length; i++){
+//         sum +=arr[i];
+//     }
+//     sum = sum- livingCost;
+//         return sum;
+// }
 
+// const monthlyCost = [1000, 2000, 3000];
+// const monthlyEarning = 5000;
+// console.log(monthlySavings[monthlyEarning, monthlyCost]);
