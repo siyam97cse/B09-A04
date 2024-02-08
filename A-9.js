@@ -25,14 +25,16 @@
 // }
 // checkName("SalmanI"); 
 
-
 //Problem-3
 //const array = {num: [ 1 , 2 , 3 ]};
-function deleteInvalids(arr) {
-    return arr.filter(item => typeof item === 'number' && !isNaN(item));
-}
+// function deleteInvalids(arr) {
+//     if( Array.isArray(arr)){
+//     return arr.filter(item => typeof item === 'number' && !isNaN(item));
+//     }
+    
+// }
+// const array = ["1",{num:2},NaN, 2];
+// //const array = [1 , null, undefined, 18, -19, NaN, "12", [1, 2], { ob: "lala" }];
+// const numbersOnly = deleteInvalids(array);
 
-const array = [1 , null, undefined, 18, -19, NaN, "12", [1, 2], { ob: "lala" }];
-const numbersOnly = deleteInvalids(array);
-
-console.log(numbersOnly);
+// console.log(numbersOnly);
